@@ -12,8 +12,9 @@ export default function Home() {
           Copy Copy That is a product designed to help you share your knowledge. 
 
           The idea is that your knowledge on a niche topic will be taken and condensed into a drip-learning format
-          to create 10 easily digestible yet still informative lessons.
-          
+          to create 10 easily digestible yet still informative lessons. <br />
+
+          Sign Up Now!
         </p>
       </div>
     </main>
