@@ -16,6 +16,13 @@ export default function Home() {
 
           Sign Up Now!
         </p>
+        <Image
+          src="/copyben.jpg"
+          alt="CopyBen"
+          width={500}
+          height={300}
+          className="mt-8 mx-auto"
+        />
       </div>
     </main>
   );
