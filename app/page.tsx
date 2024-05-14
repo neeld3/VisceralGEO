@@ -6,7 +6,7 @@ export default function Home() {
       <h1 className="text-4xl font-bold">
         Copy Copy That
       </h1>
-      <p className="mt-8 text-lg text-center">
+      <p className="mt-18 text-lg text-center">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. <br />
         Vestibulum at sapien ac urna blandit lacinia. Curabitur posuere augue sed magna volutpat, <br />
         id mollis ex gravida. Sed quis leo nec lacus ullamcorper dignissim. Ut vestibulum metus <br />
