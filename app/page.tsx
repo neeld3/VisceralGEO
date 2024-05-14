@@ -17,7 +17,7 @@ export default function Home() {
           Sign Up Now!
         </p>
         <Image
-          src="/copyben.jpg"
+          src="/copyben.JPG"
           alt="CopyBen"
           width={500}
           height={300}
