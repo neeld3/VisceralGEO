@@ -5,7 +5,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-start">
       <div className="mt-24">
         <h1 className="text-4xl font-bold text-center">Copy Copy That</h1>
-        <p className="mt-8 mx-4 text-lg text-center">
+        <p className="mt-8 mx-12 text-lg text-center">
           Is there anything that you are passionate about sharing with the world? Do you dream of sharing your expertise and
           insights with others, but find yourself overwhelmed by the thought of creating something from scratch?
           
