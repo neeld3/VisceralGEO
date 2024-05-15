@@ -18,11 +18,11 @@ export default function Home() {
           Consider the possibilities. Whether you&apos;re a chef, coder, or  yoga instructor, there&apos;s an audience waiting to learn what you have to teach.<br /><br />
           With us, you can effortlessly monetize your expertise without the extra headaches.<br /><br />
           No overhead costs. No long process. No BS!<br /><br />
-          Set your price and let your lessons flow to your students. Each course is drip-fed at the perfect pace to optimize learning and retention.<br /><br />
+          Set your price and let your lessons flow to your students. Each course is drip-fed at the perfect pace to optimize learning and retention.<br />
         </p>
         <div className="fixed bottom-10 w-full text-center">
-          <button className="bg-white border border-black py-2 px-4 rounded-lg font-semibold shadow-lg hover:bg-gray-100 transition duration-300">
-            Start Teaching Now!
+          <button className="bg-white border border-black text-black py-2 px-4 rounded-lg font-semibold shadow-lg hover:bg-gray-100 transition duration-300">
+            Start Teaching
           </button>
         </div>
       </div>
