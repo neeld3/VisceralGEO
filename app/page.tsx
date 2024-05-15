@@ -5,6 +5,16 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-start">
       <div className="mt-24">
         <h1 className="text-4xl font-bold text-center">Copy Copy That</h1>
+        
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-TRZ0K21YZN"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-TRZ0K21YZN');
+        </script>
         <p className="mt-8 mx-12 text-lg text-center">
           Is there anything that you are passionate about sharing with the world? Do you dream of sharing your expertise and
           insights with others, but find yourself overwhelmed by the thought of creating something from scratch?
