@@ -3,16 +3,6 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-start">
-      <Head>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-TRZ0K21YZN"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-      
-        gtag('config', 'G-TRZ0K21YZN');
-      </script>
-      </Head>
       <div className="mt-24">
         <h1 className="text-4xl font-bold text-center">Copy Copy That</h1>
         <p className="mt-8 mx-12 text-lg text-center">
