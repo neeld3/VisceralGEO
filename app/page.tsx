@@ -4,13 +4,6 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-start">
       <div className="mt-24">
-        <Image
-          src="/copyben.JPG"
-          alt="CopyBen"
-          width={500}
-          height={300}
-          className="mt-8 mx-auto"
-        />
         <h1 className="text-4xl font-bold text-center">Copy Copy That</h1>
         <p className="mt-8 mx-12 text-lg text-center">
           Teaching can be a very daunting task. Sometimes it might not even be worth the time and effort. From planning interactive and catered lessons to the interpersonal demands, it's a lot. <br />
