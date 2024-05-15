@@ -20,9 +20,11 @@ export default function Home() {
           No overhead costs. No long process. No BS!<br /><br />
           Set your price and let your lessons flow to your students. Each course is drip-fed at the perfect pace to optimize learning and retention.<br />
         </p>
+      <div className="fixed bottom-10 w-full text-center">
         <button className="bg-white border border-black text-black py-2 px-4 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
-          Start Teaching
+          Start &apos;Teaching&apos; Now!
         </button>
+      </div>
       </div>
     </main>
   );
