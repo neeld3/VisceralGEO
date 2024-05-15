@@ -4,22 +4,21 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-start">
       <Head>
-      <!-- Google tag (gtag.js) -->
+        {/* Google tag (gtag.js) */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-TRZ0K21YZN"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-        
-          gtag('config', 'G-TRZ0K21YZN');
-        </script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-TRZ0K21YZN');
+            `,
+          }}
+        />
       </Head>
       <div className="mt-24">
-        <h1 className="text-4xl font-bold text-center">
-          Copy Copy That
-          </h1>
-        
-       
+        <h1 className="text-4xl font-bold text-center">Copy Copy That</h1>
         <p className="mt-8 mx-12 text-lg text-center">
           Is there anything that you are passionate about sharing with the world? Do you dream of sharing your expertise and
           insights with others, but find yourself overwhelmed by the thought of creating something from scratch?
