@@ -3,8 +3,8 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-start">
-      <div className="mt-12 mx-auto max-w-lg">
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-TRZ0K21YZN"></script>
+      <Head>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-TRZ0K21YZN"></script>
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -15,6 +15,9 @@ export default function Home() {
             `,
           }}
         ></script>
+      </Head>
+      
+      <div className="mt-12 mx-auto max-w-lg">
         <Image
           src="/copyben.JPG"
           alt="CopyBen"
@@ -29,11 +32,25 @@ export default function Home() {
           No more grappling with the complexities of teaching – we&apos;ve got you covered. Whether you&apos;re a chef, coder, or yoga instructor, your expertise is in demand. Craft your course, set your price, and leave the rest to us. Each course is drip-fed at the perfect pace to optimize learning and retention.<br /><br />
           Now watch the cash flow in. No hassle, no fuss, pure earning potential.<br />
         </p>
-       <div className="mt-24">
-        <button className="bg-white border border-black text-black py-2 px-4 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
-          Start &apos;Teaching&apos; Now!
-        </button>
+         <div className="mt-24">
+          <button className="bg-white border border-black text-black py-2 px-4 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
+            Start &apos;Teaching&apos; Now!
+          </button>
+        </div>
       </div>
+      <div className="absolute top-1/2 left-0 transform -translate-y-1/2 ml-4">
+        <ul className="list-disc space-y-2">
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+          <li>Item 4</li>
+          <li>Item 5</li>
+          <li>Item 6</li>
+          <li>Item 7</li>
+          <li>Item 8</li>
+          <li>Item 9</li>
+          <li>Item 10</li>
+        </ul>
       </div>
     </main>
   );
