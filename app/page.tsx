@@ -24,7 +24,7 @@ export default function Home() {
         />
         <h1 className="text-4xl font-bold text-center">Copy Copy That</h1>
         <p className="mt-8 text-lg">
-          Are you an expert in some niche topic? If yes, you&apos;ve had the thought "What if I could teach this for money?" Then you looked into it a bit and said "It&apos;s not worth the time and effort." From planning interactive and catered lessons to the interpersonal demands, it&apos;s a lot. <br /><br />
+          Are you an expert in some niche topic? If yes, you&apos;ve had the thought &quot;What if I could teach this for money?&quot; Then you looked into it a bit and said &quot;It&apos;s not worth the time and effort.&quot; From planning interactive and catered lessons to the interpersonal demands, it&apos;s a lot. <br /><br />
           Imagine a system where all YOU have to do is condense your knowledge into 10 PDF lessons and boom. Money in and no effort out.<br /><br />
           No more grappling with the complexities of teaching – we&apos;ve got you covered. Whether you&apos;re a chef, coder, or yoga instructor, your expertise is in demand. Craft your course, set your price, and leave the rest to us. Each course is drip-fed at the perfect pace to optimize learning and retention.<br /><br />
           Now watch the cash flow in. No hassle, no fuss, pure earning potential.<br />
