@@ -24,12 +24,10 @@ export default function Home() {
         />
         <h1 className="text-4xl font-bold text-center">Copy Copy That</h1>
         <p className="mt-8 text-lg">
-          Teaching can be a very daunting task. Sometimes it might not even be worth the time and effort. From planning interactive and catered lessons to the interpersonal demands, it&apos;s a lot. <br /><br />
-          So for those who aren&apos;t seasoned educators but still have passions to share, this is where we come in. All you have to do is condense everything you see fit into a series of 10 PDF lessons. Each of these will be educational and empowering.<br /><br />
-          Consider the possibilities. Whether you&apos;re a chef, coder, or  yoga instructor, there&apos;s an audience waiting to learn what you have to teach.<br /><br />
-          With us, you can effortlessly monetize your expertise without the extra headaches.<br /><br />
-          No overhead costs. No long process. No BS!<br /><br />
-          Set your price and let your lessons flow to your students. Each course is drip-fed at the perfect pace to optimize learning and retention.<br />
+          Are you an expert in some niche topic? If yes, you&apos;ve had the thought "What if I could teach this for money?" Then you looked into it a bit and said "It&apos;s not worth the time and effort." From planning interactive and catered lessons to the interpersonal demands, it&apos;s a lot. <br /><br />
+          Imagine a system where all YOU have to do is condense your knowledge into 10 PDF lessons and boom. Money in and no effort out.<br /><br />
+          No more grappling with the complexities of teaching – we&apos;ve got you covered. Whether you&apos;re a chef, coder, or yoga instructor, your expertise is in demand. Craft your course, set your price, and leave the rest to us. Each course is drip-fed at the perfect pace to optimize learning and retention.<br /><br />
+          Now watch the cash flow in. No hassle, no fuss, pure earning potential.<br />
         </p>
        <div className="mt-24">
         <button className="bg-white border border-black text-black py-2 px-4 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
