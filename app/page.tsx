@@ -41,16 +41,16 @@ export default function Home() {
       </div>
       <div className="absolute top-1/2 left-0 transform -translate-y-1/2 ml-4">
         <ul className="list-disc space-y-2">
-          <li>Item 1</li>
-          <li>Item 2</li>
-          <li>Item 3</li>
-          <li>Item 4</li>
-          <li>Item 5</li>
-          <li>Item 6</li>
-          <li>Item 7</li>
-          <li>Item 8</li>
-          <li>Item 9</li>
-          <li>Item 10</li>
+          <li> Don&apos;t let your knowledge be just that, turn it into $$.</li>
+          <li> Learn & create once, earn forever.</li>
+          <li> Your Knowledge, Your Course, Your Profits</li>
+          <li> Turn your passion into profit </li>
+          <li> Start now, because your knowledge deserves more than a modest paycheck.</li>
+          <li> Why work hard for money when you can work smart with CopyCopyThat?</li>
+          <li> Teachings nice, but so is the money. Sign up for CopyCopyThat today.</li>
+          <li> Let your brilliance write its own paycheck.</li>
+          <li> CopyCopyThat, where wisdom whispers its worth into your wallet.</li>
+          <li> Watch your knowledge seed grow into a money tree.</li>
         </ul>
       </div>
     </main>
