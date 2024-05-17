@@ -27,7 +27,7 @@ export default function Home() {
           className="mt-8 mx-auto"
         />
         <h1 className="text-4xl font-bold text-center">Paint a picture of knowledge. Turn your passions into profit one stroke at a time.</h1>
-        <p className="mt-8  max-w-md text-justify">
+        <p className="mt-8  max-w-md text-center">
           Are you an expert in some niche topic? If yes, you&apos;ve had the thought &quot;What if I could teach this for money?&quot; Then you looked into it a bit and said &quot;It&apos;s not worth the time and effort.&quot; From planning interactive and catered lessons to the interpersonal demands, it&apos;s a lot. <br /> <br />
           Or you might be a teacher who heard AI is coming for their job.<br /><br />
           We both know that there is much more intricacy and nuance to your craft than a machine can replicate.  But what if you could use this technology to your advantage? Ensuring your unique human touch and expertise remain irreplaceable.<br /><br />
@@ -38,7 +38,7 @@ export default function Home() {
           Your Knowledge, Your Course, Your Profits. <br /><br />
           Click the button below to begin your journey as an educator and money-maker!<br />
         </p>
-         <div className="mt-24 max-w-md">
+         <div className="mt-24 max-w-md text-center">
           <button className="bg-white border border-black text-black py-2 px-4 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
             Start &apos;Teaching&apos; Now!
           </button>
