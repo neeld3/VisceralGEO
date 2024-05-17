@@ -20,7 +20,7 @@ export default function Home() {
       
       <div className="mt-12 mx-auto max-w-lg">
         <Image
-          src="/paint.JPG"
+          src="/paint.jpg"
           alt="Paint"
           width={500}
           height={300}
