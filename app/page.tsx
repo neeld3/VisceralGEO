@@ -27,7 +27,7 @@ export default function Home() {
           className="mt-8 mx-auto"
         />
         <h1 className="text-4xl font-bold text-center">Paint a picture of knowledge. Turn your passions into profit one stroke at a time.</h1>
-        <p className="mt-4  max-w-md text-center">
+        <p className="mt-4  max-w-md text-justify">
           Are you an expert in some niche topic? If yes, you&apos;ve had the thought &quot;What if I could teach this for money?&quot; Then you looked into it a bit and said &quot;It&apos;s not worth the time and effort.&quot; From planning interactive and catered lessons to the interpersonal demands, it&apos;s a lot. <br /> <br />
           Or you might be a teacher who heard AI is coming for their job.<br /><br />
           We both know that there is much more intricacy and nuance to your craft than a machine can replicate.  But what if you could use this technology to your advantage? Ensuring your unique human touch and expertise remain irreplaceable.<br /><br />
