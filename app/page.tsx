@@ -38,7 +38,7 @@ export default function Home() {
           Your Knowledge, Your Course, Your Profits. <br /><br />
           Click the button below to begin your journey as an educator and money-maker!<br />
         </p>
-         <div className="mt-24">
+         <div className="mt-24 max-w-md">
           <button className="bg-white border border-black text-black py-2 px-4 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
             Start &apos;Teaching&apos; Now!
           </button>
