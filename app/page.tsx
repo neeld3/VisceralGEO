@@ -40,7 +40,7 @@ export default function Home() {
         </p>
          <div className="mt-24 max-w-md text-center">
           <button className="bg-white border border-black text-black py-2 px-4 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
-            Start 'Teaching' Now!
+            Start &apos;Teaching&apos; Now!
           </button>
         </div>
       </div>
