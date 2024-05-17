@@ -18,7 +18,7 @@ export default function Home() {
           ></script>
       </Head>
       
-      <div className="mt-12 w-md">
+      <div className="mt-12 w-md flex flex-col items-center justify-center"> {/* Updated parent container */}
         <Image
           src="/paint.jpg"
           alt="Paint"
@@ -40,7 +40,7 @@ export default function Home() {
         </p>
          <div className="mt-24 max-w-md text-center">
           <button className="bg-white border border-black text-black py-2 px-4 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
-            Start &apos;Teaching&apos; Now!
+            Start 'Teaching' Now!
           </button>
         </div>
       </div>
