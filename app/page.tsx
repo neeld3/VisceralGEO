@@ -18,7 +18,7 @@ export default function Home() {
           ></script>
       </Head>
       
-      <div className="mt-12 mx-auto max-w-lg">
+      <div className="mt-12 max-w-md">
         <Image
           src="/paint.jpg"
           alt="Paint"
