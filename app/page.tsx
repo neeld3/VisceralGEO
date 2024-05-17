@@ -26,12 +26,15 @@ export default function Home() {
           height={300}
           className="mt-8 mx-auto"
         />
-        <h1 className="text-4xl font-bold text-center">Copy Copy That</h1>
-        <p className="mt-8 text-lg">
-          Are you an expert in some niche topic? If yes, you&apos;ve had the thought &quot;What if I could teach this for money?&quot; Then you looked into it a bit and said &quot;It&apos;s not worth the time and effort.&quot; From planning interactive and catered lessons to the interpersonal demands, it&apos;s a lot. <br /><br />
-          Imagine a system where all YOU have to do is condense your knowledge into 10 PDF lessons and boom. Money in and no effort out.<br /><br />
-          No more grappling with the complexities of teaching – we&apos;ve got you covered. Whether you&apos;re a chef, coder, or yoga instructor, your expertise is in demand. Craft your course, set your price, and leave the rest to us. Each course is drip-fed at the perfect pace to optimize learning and retention.<br /><br />
-          Now watch the cash flow in. No hassle, no fuss, pure earning potential.<br />
+        <h1 className="text-4xl font-bold text-center">Your Knowledge, Your Course, Your Profits</h1>
+        <p className="mt-8 text-base">
+          Are you an expert in some niche topic? If yes, you&apos;ve had the thought &quot;What if I could teach this for money?&quot; Then you looked into it a bit and said &quot;It&apos;s not worth the time and effort.&quot; From planning interactive and catered lessons to the interpersonal demands, it&apos;s a lot. <br /> <br />
+          Or you might be a teacher who heard AI is coming for their job.<br /><br />
+          We both know that there is much more intricacy and nuance to your craft than a machine can replicate.  But what if you could use this technology to your advantage? Ensuring your unique human touch and expertise remain irreplaceable.<br /><br />
+          With CopyCopyThat you can share your expertise for what you&apos;re passionate about. Do it without the extra steps and still maintain that touch of personality. Condense your knowledge into a series of 10 lessons, and watch. The money starts to flow without another finger lifted.<br /><br />
+          No more grappling with the complexities of other demanding alternatives. We&apos;ve got you covered. Whether you specialize in poetry or comedic writing, your expertise is in demand.  Craft your course, set your price, and leave the rest to us. Each course is drip-fed at the perfect pace to optimize learning and retention.<br /><br />
+          Share your passions with the world, and watch the cash flow in. No hassle, no fuss, pure earning and satisfaction.
+          Click the button below to begin your journey as an educator and money-maker!<br />
         </p>
          <div className="mt-24">
           <button className="bg-white border border-black text-black py-2 px-4 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
@@ -39,20 +42,7 @@ export default function Home() {
           </button>
         </div>
       </div>
-      <div className="absolute top-1/2 left-0 transform -translate-y-1/2 ml-4">
-        <ul className="list-disc space-y-2">
-          <li> Don&apos;t let your knowledge be just that, turn it into $$.</li>
-          <li> Learn & create once, earn forever.</li>
-          <li> Your Knowledge, Your Course, Your Profits</li>
-          <li> Turn your passion into profit </li>
-          <li> Start now, because your knowledge deserves more than a modest paycheck.</li>
-          <li> Why work hard for money when you can work smart with CopyCopyThat?</li>
-          <li> Teachings nice, but so is the money. Sign up for CopyCopyThat today.</li>
-          <li> Let your brilliance write its own paycheck.</li>
-          <li> CopyCopyThat, where wisdom whispers its worth into your wallet.</li>
-          <li> Watch your knowledge seed grow into a money tree.</li>
-        </ul>
-      </div>
+     
     </main>
   );
 }
