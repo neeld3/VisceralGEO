@@ -26,7 +26,7 @@ export default function Home() {
           height={300}
           className="mt-8 mx-auto"
         />
-        <h1 className="text-4xl font-bold text-center"><br /><br />Paint a picture of knowledge. Turn your passions into profit one &apos;drip&apos; at a time.</h1>
+        <h1 className="text-4xl font-bold text-center"><br /><br />Your Knowledge, Your Course, Your Profits.</h1>
         <p className="mt-8 max-w-fill text-justify" style={{ marginLeft: '10%', marginRight: '10%' }}>
           Are you an expert in some niche topic? If yes, you&apos;ve had the thought &quot;What if I could teach this for money?&quot; Then you looked into it a bit and said &quot;It&apos;s not worth the time and effort.&quot; From planning interactive and catered lessons to the interpersonal demands, it&apos;s a lot. <br /> <br />
           Or you might be a teacher who heard AI is coming for their job.<br /><br />
@@ -35,7 +35,6 @@ export default function Home() {
          Think of EasyLesson as the canvas for your expertise. Where each stroke of the brush represents the passing of your knowledge. Share your passion, without the extra steps, and still maintain that touch of personality. Just condense your knowledge into a series of 10 lessons, and watch. The money starts to flow without another finger lifted.<br /><br />
           No more grappling with the complexities of other demanding alternatives. We&apos;ve got you covered. Whether you specialize in poetry or comedic writing, your expertise is in demand.  Craft your course, set your price, and leave the rest to us. Each course is drip-fed at the perfect pace to optimize learning and retention.<br /><br />
           Share your passions with the world, and watch the cash flow in. <br /><br />
-          Your Knowledge, Your Course, Your Profits. <br /><br />
           Click the button below to begin your journey as an educator and money-maker!<br />
         </p>
          <div className="mt-24 max-w-md text-center">
