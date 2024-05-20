@@ -32,7 +32,7 @@ export default function Home() {
           Or you might be a teacher who heard AI is coming for their job.<br /><br />
           We both know that there is much more intricacy and nuance to your craft than a machine can replicate.  But what if you could use this technology to your advantage? Ensuring your unique human touch and expertise remain irreplaceable.<br /><br />
          
-          With DripLearn you can think of us as the canvas to your expertise. Each drip of paint representing the incremental process of passing knowledge. Share your passion, without the extra steps, and still maintain that touch of personality. Just condense your knowledge into a series of 10 lessons, and watch. The money starts to flow without another finger lifted.<br /><br />
+         Think of EasyLesson as the canvas for your expertise. Where each stroke of the brush represents the passing of your knowledge. Share your passion, without the extra steps, and still maintain that touch of personality. Just condense your knowledge into a series of 10 lessons, and watch. The money starts to flow without another finger lifted.<br /><br />
           No more grappling with the complexities of other demanding alternatives. We&apos;ve got you covered. Whether you specialize in poetry or comedic writing, your expertise is in demand.  Craft your course, set your price, and leave the rest to us. Each course is drip-fed at the perfect pace to optimize learning and retention.<br /><br />
           Share your passions with the world, and watch the cash flow in. <br /><br />
           Your Knowledge, Your Course, Your Profits. <br /><br />
