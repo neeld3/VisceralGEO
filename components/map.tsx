@@ -18,7 +18,7 @@ const layerStyle: CircleLayer = {
     'circle-color': '#007cbf'
   }
 };
-
+ 
 const MyMap: React.FC = () => {
   const [viewport, setViewport] = useState({
     latitude: 37.8,
