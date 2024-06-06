@@ -1,10 +1,23 @@
 import * as React from 'react';
-import {createRoot} from 'react-dom/client';
-import Map, {Marker} from 'react-map-gl';
+import Map, {Source, Layer} from 'react-map-gl';
+import type {CircleLayer} from 'react-map-gl';
+import type {FeatureCollection} from 'geojson';
 
-import 'mapbox-gl/dist/mapbox-gl.css';
+const geojson: FeatureCollection = {
+  type: 'FeatureCollection',
+  features: [
+    {type: 'Feature', geometry: {type: 'Point', coordinates: [-122.4, 37.8]}}
+  ]
+};
 
-const MAPBOX_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
+const layerStyle: CircleLayer = {
+  id: 'point',
+  type: 'circle',
+  paint: {
+    'circle-radius': 10,
+    'circle-color': '#007cbf'
+  }
+};
 
 const MyMap: React.FC = () => {
   const [viewport, setViewport] = useState({
@@ -14,14 +27,16 @@ const MyMap: React.FC = () => {
   });
 
   return (
-    <Map
-      initialViewState={viewport}
-      style={{ width: '100%', height: '600px' }}
+   <Map
+      mapboxAccessToken="<pk.eyJ1IjoibmVlbGRhaGFrZSIsImEiOiJjbHgzaDN6bGwwYzhqMmlvbWlneXVubGphIn0.ZcbsX4IIvVOYjAuPYKZisA>"
+      initialViewState={{
+        longitude: -122.4,
+        latitude: 37.8,
+        zoom: 14
+      }}
+      style={{width: 600, height: 400}}
       mapStyle="mapbox://styles/mapbox/streets-v9"
-      mapboxAccessToken={MAPBOX_TOKEN}
-    >
-      <Marker longitude={-122.4} latitude={37.8} color="red" />
-    </Map>
+    />
   );
 };
 
