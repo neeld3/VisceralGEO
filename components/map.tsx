@@ -1,8 +1,7 @@
-// components/Map.tsx
 import * as React from 'react';
-import { useEffect, useState } from 'react';
-import { useClient } from 'next/client';
-import Map, { Marker } from 'react-map-gl';
+import {createRoot} from 'react-dom/client';
+import Map, {Marker} from 'react-map-gl';
+
 import 'mapbox-gl/dist/mapbox-gl.css';
 
 const MAPBOX_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_TOKEN;
@@ -13,9 +12,6 @@ const MyMap: React.FC = () => {
     longitude: -122.4,
     zoom: 14,
   });
-
-  // Wrap the component with useClient to make it a client-side component
-  useClient();
 
   return (
     <Map
