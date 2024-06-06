@@ -21,8 +21,8 @@ export default function Home() {
         mapboxAccessToken={MAPBOX_TOKEN}
       >
         <Marker longitude={40.7831} latitude={73.9712} color="red" />
-        <div style={{ position: 'absolute', bottom: '50px', left: '50%', transform: 'translateX(-50%)' }}>
-          <button style={{ padding: '10px 20px', fontSize: '16px', backgroundColor: 'gray', color: 'white', fontWeight: 'bold', border: 'none', borderRadius: '4px' }}>
+        <div style={{ position: 'absolute', bottom: '10px', left: '50%', transform: 'translateX(-50%)', width: 'fit-content', zIndex: 1 }}>
+          <button style={{ padding: '10px 20px', fontSize: '16px', backgroundColor: 'gray', color: 'white', fontWeight: 'bold', border: 'none', borderRadius: '4px', cursor: 'pointer' }}>
             Upload CSV
           </button>
         </div>
