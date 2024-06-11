@@ -19,7 +19,7 @@ export default function Home() {
   }, []);
 
   React.useEffect(() => {
-    fetch('/api/data')
+    fetch('/data')
       .then(response => response.json())
       .then(data => setDataFromDB(data.data.text_column))
       .catch(error => console.error('Error fetching data from API:', error));
